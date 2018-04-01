@@ -1,2 +1,6 @@
 # Email-Template-Design
-A repository for my email template design.
+Hello! This email template is a mobile responsive email designed using HTML and CSS.
+
+Tools used: Atom, Adobe Illustrator, Adobe Photoshop, Git
+
+My full portfolio is available to view at http://baezcreative.co
