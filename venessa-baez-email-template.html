@@ -26,47 +26,44 @@
   /*Table Styling*/
 
   table, tr, td {
-  width: 100%;
+    width: 100% !important;
+    display: block;
   }
+
 
    /*Preheader Styling*/
 
-  .preheader-block {
-  display: block;
+  .source-block {
+    display: block;
+    text-align: left !important;
   }
 
   /*Template: Image Styling*/
 
-  .header-logo {
-  width: 90%;
-  height: auto;
-   	padding-left: 10px;
- 	}
-
-  .fullwidth-image {
-  width: 100%;
-  height: auto;
-  }
-
-  .social-icons {
-  width: 100%;
-  height: auto;
-  }
-
-   /*Reusable Display Classes*/
+   /*Reusable Mobile Classes*/
 
    .mobile-hide {
-      display: none !important;
+    display: none !important;
+   }
+
+   .fullwidth-image {
+     width: 90%;
+     height: auto;
+     align: left;
    }
 
    .display-block {
-      display: block;
+     display: block;
    }
 
-  .footer-apps {
-     display: block;
-     padding: 25px 0 25px 0;
-  }
+   .mobile-image {
+     width: 80%;
+   }
+
+   .mobile-review {
+     width: 70% !important;
+
+   }
 
 }
 
@@ -82,12 +79,12 @@
             <td>
               <table width="800" border="0" cellspacing="0" cellpadding="10">
                 <tr>
-                	<td width="212">
-                    <a href="http://baezcreative.co"><img class="header-logo" src="https://bucket.mlcdn.com/a/248/248269/images/a099fa04a511ad7154d41041093fd78bbb60df37.png" alt="Baez Creative Co" width="200" height="auto" border="0"/></a>
+                	<td width="212" class="mobile-hide ">
+                    <a href="http://baezcreative.co"><img src="https://bucket.mlcdn.com/a/248/248269/images/a099fa04a511ad7154d41041093fd78bbb60df37.png" alt="Baez Creative Co" width="200" height="auto" border="0"/></a>
                   </td>
                   <td class="mobile-hide" width="137"></td>
-                  <td class="preheader-block" width="200" style="align: right; font-family:Arial, Helvetica, sans-serif; color:#666666; font-size:11px; text-align:right;">
-                    <span style="font-family:Arial, Helvetica, sans-serif; color:#a1a1a1; font-size:11px;"><a style="color: #a1a1a1;" href="https://github.com/venessabaez/Email-Template-Design">View Source Code</a></span>
+                  <td width="200" style="align: right; font-family:Arial, Helvetica, sans-serif; color:#666666; font-size:11px; text-align: right;" class="source-block">
+                    <span style="font-family:Arial, Helvetica, sans-serif; color:#a1a1a1; font-size:11px;"><a style="color: #a1a1a1;" href="https://github.com/venessabaez/Email-Template-Design">View Source Code on GitHub</a></span>
                   </td>
      						</tr>
               </table>
@@ -105,8 +102,8 @@
                       <td>
                         <table width="740" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 140%; color: #25272e;">
                           <tr>
-                            <td width="360" valign="top">
-                              <img src="images/title.png" alt="Hi, I'm Venessa - with an E" style="width: 340px;">
+                            <td width="360" valign="top" class="display-block">
+                              <img src="images/title.png" alt="Hi, I'm Venessa - with an E">
                               <br><br>
 
     													<span style="font-family: Arial, Helvetica, sans-serif; color: #25272e; font-size: 10pt;">It&rsquo;s really hard to make a first impression over a one-page resume &ndash; which is why I was thrilled that the first step to MailerLite&rsquo;s application process is to design an email newsletter. Now let’s get down to business.<br><br>
@@ -122,8 +119,8 @@
 
                             </td>
 
-    												<td width="380" valign="top" align="right">
-    													<img src="images/venessa-to-the-rescue.png" alt="Venessa to the Rescue">
+    												<td width="380" valign="top" class="display-block">
+    													<img class="mobile-image" src="images/venessa-to-the-rescue.png" alt="Venessa to the Rescue">
     												</td>
                           </tr>
                         </table>
@@ -137,7 +134,7 @@
                         <table width="740" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 140%; color: #25272e;">
                           <tr>
                             <td width="740" valign="top">
-                              <img src="images/title-itsabird.png" alt="It's a Bird. It's a plane. It's me.">
+                              <img src="images/title-itsabird.png" alt="It's a Bird. It's a plane. It's me." class="mobile-image">
                             </td>
                           </tr>
                           <tr>
@@ -145,7 +142,7 @@
                               <table>
                                 <tr>
 
-                                  <td width="370" valign="top" align="left">
+                                  <td width="370" valign="top" align="left" class="display-block">
                                     <img src="http://placehold.it/350x230">
                                   </td>
 
@@ -212,7 +209,7 @@
                         <table width="740" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#f1f1f1" style="font-family:Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 140%; color: #25272e;">
                           <tr>
                             <td align="middle">
-                              <img src="images/title-abletoleapbuildings.png">
+                              <img src="images/title-abletoleapbuildings.png" class="mobile-image">
                               <br>
                               <span style="font-family: Arial, Helvetica, sans-serif; color: #25272e; font-size: 10pt;">(<em>And</em> I can do these things)
                               </span>
@@ -274,7 +271,7 @@
                         <table width="740" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 140%; color: #25272e;">
                           <tr>
                             <td>
-                              <img src="images/title-volunteerwork.png" alt="Volunteer Work">
+                              <img src="images/title-volunteerwork.png" alt="Volunteer Work" class="mobile-image">
                             </td>
                           </tr>
                           <tr>
@@ -330,7 +327,7 @@
                         <table width="740" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#25272e" style="font-family:Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 140%; color: #25272e;">
                           <tr>
                             <td>
-                              <img src="images/title-criticsrave.png" alt="This looks like a job for...me!">
+                              <img src="images/title-criticsrave.png" alt="Critics Rave!" class="mobile-image">
                             </td>
                           </tr>
 
@@ -342,10 +339,10 @@
                                   <td width="100" class="mobile-hide">
                                     &nbsp;
                                   </td>
-                                  <td width="120" valign="top">
-                                    <img src="images/recommendation-dianagarcia.jpg" style="border-radius: 100%;">
+                                  <td width="120" valign="top" class="mobile-review-image">
+                                    <img src="images/recommendation-dianagarcia.jpg" alt="Diana Garcia" style="border-radius: 100%;">
                                   </td>
-                                  <td width="420" valign="middle" align="left">
+                                  <td width="420" valign="middle" align="left" class="mobile-review">
                                     <span style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 10pt;">
                                       <span style="font-size: 12pt; color: gray;"><strong>&ldquo;</strong></span>There is no project or endeavor too large or small for Venessa. She is self motivated, highly driven and tackles the known and unknown head on and completes projects with flair.<span style="font-size: 12pt; color: gray;"><strong>&rdquo;</strong></span>
                                     </span><br>
@@ -365,11 +362,11 @@
                                     &nbsp;
                                   </td>
 
-                                  <td width="120" valign="top">
-                                    <img src="images/recommendation-jimjohnson.jpg" style="border-radius: 100%;">
+                                  <td width="120" valign="top" class="mobile-review-image">
+                                    <img src="images/recommendation-jimjohnson.jpg" alt="Jim Johnson" style="border-radius: 100%;">
                                   </td>
 
-                                  <td width="420" valign="middle" align="left">
+                                  <td width="420" valign="middle" align="left" class="mobile-review">
                                     <span style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 10pt;">
                                       <span style="font-size: 12pt; color: gray;"><strong>&ldquo;</strong></span>There is no project or endeavor too large or small for Venessa. She is self motivated, highly driven and tackles the known and unknown head on and completes projects with flare.<span style="font-size: 12pt; color: gray;"><strong>&rdquo;</strong></span>
                                     </span><br>
@@ -389,11 +386,11 @@
                                     &nbsp;
                                   </td>
 
-                                  <td width="120" valign="top">
-                                    <img src="images/recommendation-keefemanwaring.jpg" style="border-radius: 100%;">
+                                  <td width="120" valign="top" class="mobile-review-image">
+                                    <img src="images/recommendation-keefemanwaring.jpg" alt="Keefe Manwaring" style="border-radius: 100%;">
                                   </td>
 
-                                  <td width="420" valign="middle" align="left">
+                                  <td width="420" valign="middle" align="left" class="mobile-review">
                                     <span style="font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 10pt;">
                                       <span style="font-size: 12pt; color: gray;"><strong>&ldquo;</strong></span>There is no project or endeavor too large or small for Venessa. She is self motivated, highly driven and tackles the known and unknown head on and completes projects with flare.<span style="font-size: 12pt; color: gray;"><strong>&rdquo;</strong></span>
                                     </span><br>
@@ -417,7 +414,7 @@
                         <table width="740" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 140%; color: #25272e;">
                           <tr>
                             <td>
-                              <img src="images/title-thislookslikeajobfor.png" alt="This looks like a job for...me!">
+                              <img src="images/title-thislookslikeajobfor.png" alt="This looks like a job for...me!" class="fullwidth-image">
                             </td>
                           </tr>
                           <tr>
@@ -433,10 +430,7 @@
                                       I first became familiar with MailerLite years ago through networking with other bloggers. At one point, I was sent a #LoveMyJob t-shirt, which I still wear to conferences to this day. (I mean, who can turn down such a cool and comfortable tee?)<br><br>
                                       The knowledge I bring to the table would benefit MailerLite in many ways. I am <a style="color: #51565e;" href="https://bronto.com/">certified in a similar email marketing program</a> and am extremely familiar with the value of segmentation and automated workflows.<br><br>
                                       Whether I do it through updating the website, designing a cool sticker, or animating a motion graphic video, I want to be able to help other companies around the world realize the value in that through using a program like MailerLite.
-
-
                                     </span>
-
 
                                     <br><br>
                                     <center>
@@ -445,16 +439,19 @@
                                     </center>
                                   </td>
 
-                                  <td width="370" valign="top" align="middle">
-                                   <img src="images/ilivehere.jpg"><br><br>
+                                  <td width="370" valign="top">
+                                   <img src="images/ilivehere.jpg" class="mobile-image"><br><br>
                                     <span style="font-family: Arial, Helvetica, sans-serif; color: gray; font-size: 10pt;">
-                                      <strong>Frequently Visited Favorites<br><br></strong>
+                                      <center><strong>Frequently Visited Favorites<br><br></strong>
                                       My favorite blog:<br><a style="color: #51565e;" href="http://invisionapp.com/blog">invisionapp.com/blog</a>
                                       <br><br>
                                       My favorite Medium publication:<br><a style="color: #51565e;" href="http://medium.com/ux-power-tools">medium.com/ux-power-tools</a>
                                       </br><br>
                                       My favorite YouTube channel:<br><a style="color: #51565e;" href="https://www.youtube.com/user/DamonAndJo">youtube.com/user/DamonAndJo</a>
-                                    </span>
+                                      <br><br>
+                                      My own blog:
+                                      <br><a style="color: #51565e;" href="https://baezcreative.co">baezcreative.co</a>
+                                    </span></center>
                                   </td>
                                 </tr>
                               </table>
